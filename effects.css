@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*----scrollbar----*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F8F6; 
+}
+::-webkit-scrollbar-thumb {
+  background: #CBBAA4;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B59E7D; 
+}
+.parallax {
+  background-image: linear-gradient(rgba(104, 85, 60, 0.7), rgba(104, 85, 60, 0.3)), url("images/Social-Apps-Icons-1920.jpg");
+  min-height: 55vh; 
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav {
+    display: flex;
+    padding:  2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img {
+    width: 150px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative
+}
+.nav-links ul li a{
+    color:#F6F3EC;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #d7724e;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box {
+    width: 100%;
+    color: #F6F3EC;
+    position: absolute;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 38px;
+    color: #F6F3EC;
+    width: 100%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: #F6F3EC;
+}
+
+
+
+/*----effects----*/
+.effects{
+    width: 90%;
+    color: #A68A64;
+    margin: auto;
+    text-align: left;
+    padding-top: 4%; 
+    background-color: #F9F7F1;
+}
+.effects h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #A68B4E;
+    margin-top: 3%;
+}
+
+.effects ul li{
+    font-size: 16px;
+    padding-left: 2%;
+    padding-top: 2%;
+    color: #545454;
+    font-weight: 320;
+    line-height: 25px;
+}
+
+
+.parallax-2{
+  background-image: linear-gradient(rgba(104, 85, 60, 0.7), rgba(104, 85, 60, 0.3)), url("images/banner2.jpg");
+  height: 122px; 
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
